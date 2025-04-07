@@ -3,7 +3,7 @@ from bson import ObjectId  # Make sure ObjectId is imported correctly
 import os
 
 # Connect to MongoDB
-client = MongoClient(os.getenv('MONGO_URI', 'mongodb://itsenock254:2467havoc@cluster0-shard-00-00.dadth.mongodb.net:27017/user_database?ssl=true&replicaSet=atlas-tvdsu5-shard-0&authSource=admin&retryWrites=true&w=majority'))
+client = MongoClient(os.getenv('MONGO_URI', 'mongodb+srv://itsenock254:<2467Havoc.>@cluster0.no4qaur.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'))
 
 db = client['user_database']
 
