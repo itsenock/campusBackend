@@ -7,7 +7,7 @@ import os
 admin_bp = Blueprint('admin_bp', __name__)
 
 # Database connection
-client = MongoClient(os.getenv('MONGO_URI', 'mongodb+srv://itsenock254:<2467Havoc.>@cluster0.no4qaur.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'))
+client = MongoClient(os.getenv('MONGO_URI', 'mongodb+srv://mutetienock4:2467havoc@cluster0.jucdi8i.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'))
 db = client['user_database']
 
 # Make sure this UPLOAD_FOLDER constant is the same used in your items blueprint.
